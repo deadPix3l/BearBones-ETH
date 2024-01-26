@@ -1,0 +1,39 @@
+{
+  "name": "bearbones-eth",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/hardhat",
+      "packages/sveltekit"
+    ]
+  },
+  "scripts": {
+    "account": "yarn workspace @bearbones-eth/hardhat account",
+    "chain": "yarn workspace @bearbones-eth/hardhat chain",
+    "fork": "yarn workspace @bearbones-eth/hardhat fork",
+    "deploy": "yarn workspace @bearbones-eth/hardhat deploy",
+    "verify": "yarn workspace @bearbones-eth/hardhat verify",
+    "compile": "yarn workspace @bearbones-eth/hardhat compile",
+    "generate": "yarn workspace @bearbones-eth/hardhat generate",
+    "hardhat:lint": "yarn workspace @bearbones-eth/hardhat lint",
+    "hardhat:lint-staged": "yarn workspace @bearbones-eth/hardhat lint-staged",
+    "hardhat:test": "yarn workspace @bearbones-eth/hardhat test",
+    "test": "yarn hardhat:test",
+    "start": "yarn workspace @bearbones-eth/sveltekit dev",
+    "svelte:lint": "yarn workspace @bearbones-eth/sveltekit lint",
+    "svelte:format": "yarn workspace @bearbones-eth/sveltekit format",
+    "svelte:check-types": "yarn workspace @bearbones-eth/sveltekit check-types",
+    "postinstall": "husky install",
+    "precommit": "lint-staged",
+    "vercel": "yarn workspace @bearbones-eth/sveltekit vercel",
+    "surge": "yarn workspace @bearbones-eth/sveltekit surge"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "dependencies": {
+    "yarn": "^1.22.21"
+  }
+}
