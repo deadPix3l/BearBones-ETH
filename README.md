@@ -3,6 +3,9 @@
 A sveltekit building block for making dapps, inspired by scaffold-eth-2.
 Giving Dapp developers more options beyond react.
 
+Warning: This project is brand new. It does not currently work.
+If you would like to help make it work, PRs are appreciated!
+
 
 To get started, run:
 
@@ -31,4 +34,5 @@ yarn start
 ```
 
 📱 Open http://localhost:5173 to see the app.
+
 
