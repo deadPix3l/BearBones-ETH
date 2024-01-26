@@ -17,5 +17,6 @@ If you haven't tried it, I highly encourage you to.
 
 One of the most popular and feature-full eth frameworks, they are our eth development environment of choice.
 
-## RainbowKit
+## WalletConnect
+
 
